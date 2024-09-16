@@ -20,4 +20,4 @@
 | test | 測試        |    $3333 |
 
 
-[高雄科技大學](https://www.nkust.edu.tw/))
+[高雄科技大學](https://www.nkust.edu.tw/)
