@@ -19,21 +19,17 @@ gantt
 ```mermaid
 graph TD
     A[研擬計畫] --> B[任務分配]
-    B --> C[取得硬體]
-    C --> D[程式開發]
-    D --> E[安裝硬體]
-    E --> F[程式測試]
-    F --> G[撰寫使用手冊]
-    G --> H[轉換檔案]
-    H --> I[系統測試]
-    I --> J[使用者訓練]
-    J --> K[使用者測試]
+    A--> C[取得硬體]
+    B --> D[程式開發]
+    C --> E[安裝硬體]
+    D --> F[程式測試]
+    E --> G[撰寫使用手冊]
+    E --> H[轉換檔案]
+    F --> I[系統測試]
+    H --> J[使用者訓練]
+    I --> K[使用者測試]
+    G --> J
+    J --> K
 
-    style D fill:#f9f,stroke:#333,stroke-width:2px
-    style E fill:#f9f,stroke:#333,stroke-width:2px
 
-    C --> E
-    G --> H
-    F --> G
-}
 ```
