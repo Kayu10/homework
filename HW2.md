@@ -14,7 +14,7 @@ gantt
     系統測試      : a9,after a6,25d
     使用者訓練      : a10,after a7 a8,20d
     使用者測試      : after a9 a10,25d
-
+```
 
 
 ```graphviz
