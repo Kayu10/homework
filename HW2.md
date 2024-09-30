@@ -15,6 +15,8 @@ gantt
     使用者訓練      : a10,after a7 a8,20d
     使用者測試      : after a9 a10,25d
 ```
+
+
 ```graphviz
 digraph {
 	node[shape=record];
