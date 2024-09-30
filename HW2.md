@@ -1,4 +1,22 @@
 ```mermaid
+graph TD
+    A[研擬計畫] --> B[任務分配]
+    A--> C[取得硬體]
+    B --> D[程式開發]
+    C --> E[安裝硬體]
+    D --> F[程式測試]
+    E --> G[撰寫使用手冊]
+    E --> H[轉換檔案]
+    F --> I[系統測試]
+    H --> J[使用者訓練]
+    I --> K[使用者測試]
+    G --> J
+    J --> K
+
+
+```
+
+```mermaid
 gantt
     title A Gantt Diagram
 
@@ -16,20 +34,3 @@ gantt
     使用者測試      : after a9 a10,25d
 ```
 ![petg](https://github.com/Kayu10/homework/blob/main/graphviz%20(1).png)
-```mermaid
-graph TD
-    A[研擬計畫] --> B[任務分配]
-    A--> C[取得硬體]
-    B --> D[程式開發]
-    C --> E[安裝硬體]
-    D --> F[程式測試]
-    E --> G[撰寫使用手冊]
-    E --> H[轉換檔案]
-    F --> I[系統測試]
-    H --> J[使用者訓練]
-    I --> K[使用者測試]
-    G --> J
-    J --> K
-
-
-```
