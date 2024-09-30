@@ -17,7 +17,7 @@ gantt
 ```
 
 
-``graphviz
+```graphviz
 digraph {
 	node[shape=record];
 	rankdir="LR";
